@@ -6,25 +6,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div id="wrapper">
+<div id="wrapper" class="center">
     <div id="header">
-        <div id="logo">
+        <div id="logo" class="floatLeft">
             <img src="img/traventure.png">
         </div> <!--- End of logo -->
-        <div id="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+        <div id="nav" class="floatLeft">
+            <ul class="button">
+                <li class="inLine"><a href="index.html">Home</a></li>
+                <li class="inLine"><a href="about.html">About</a></li>
             </ul>
         </div> <!--- End of nav -->
     </div> <!--- End of header -->
-    <div id="main">
-        <div id="photo">
+    <div id="info" class="clearFloat">
+        <div id="photo"  class="floatLeft center">
             <img src="img/mountains.jpg">
             <h2>Mountains</h2>
             <p>This is some text for the bottom of the picture. 199x291</p>
         </div>
-        <div id="message">
+        <div id="text"  class="floatLeft">
             <h1>Heading 1</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum eu leo sit amet luctus.
@@ -41,7 +41,7 @@
                 diam semper mattis. Donec in diam sed felis fringilla pretium id quis sapien. Ut tincidunt justo
                 efficitur mi pulvinar condimentum. Aenean euismod urna ligula, eu iaculis nulla molestie sit amet.
             </p>
-            <table>
+            <table class="center">
                 <tr>
                     <th>Firstname</th>
                     <th>Lastname</th>
@@ -60,8 +60,10 @@
             </table>
         </div> <!--- End of message -->
     </div> <!--- End of main -->
-    <div id="footer">
-        Franz &copy; 2018
+    <div id="footer" class="clearFloat">
+        <div id="author">
+            Franz &copy; 2018
+        </div> <!--- End of author -->
     </div> <!--- End of footer -->
 
 </div> <!--- End of wrapper -->
