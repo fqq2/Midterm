@@ -1,7 +1,6 @@
-body, header{
+body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 #wrapper{
     width: 960px;
 }
@@ -12,7 +11,7 @@ body, header{
 
 #nav{
     width: 795px;
-    line-height: 130px;
+    line-height: 100px;
     text-align: right;
     text-decoration: none;
 }
@@ -85,21 +84,27 @@ body, header{
     margin-right: auto;
 }
 
-.inLine{
+.button{
     display: inline;
     text-align: right;
     text-decoration: none;
 }
 
-.button{
-    margin: 0;
-    color: red;
+.button:hover{
+    text-decoration: underline;
 }
-
 .floatLeft{
     float: left;
 }
 
 .clearFloat{
     clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
